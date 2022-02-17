@@ -1,0 +1,16 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  .cell {
+    width: 20px;
+    height: 20px;
+    border: solid 0.5px black;
+    &.death {
+      background-color: red;
+    }
+
+    &.alive {
+      background-color: blue;
+    }
+  }
+}
